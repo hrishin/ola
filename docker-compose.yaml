@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  ola-springboot-service:
+    image: ola-springboot:latest
+    labels:
+     - "ola-springboot"
+    ports:
+      - "8080:8080"
